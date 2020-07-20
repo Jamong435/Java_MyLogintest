@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
                                 intent.putExtra("userPass", userPass);
                                 startActivity(intent);
 
-                            } if (userID!=null) {
+                            } if (userID==null) {
                                 return;
 
                             }
